@@ -140,21 +140,4 @@ test1 : 2 + 1 ≡ 3
 test1 = refl
 
 
-data assoziativ  ( p : (
-                               { A : Set } →
-                               (  m : A →  A → A )
-                               → ( ∀ { a b c : A } → (
-                               m ( m a b ) c ≡ m a ( m b c )
-                               ) ) ))  :  Set
-     where
-     istAssoziativ : assoziativ p 
-
-data kommutativ  ( p : (
-                              { A : Set } →
-                               (  m : A →  A → A )
-                               → ( ∀ { a b c : A } → (
-                               m ( m a b ) c ≡ m a ( m b c )
-                               ) ) ))  :  Set
-     where
-     istKommutativ : kommutativ p 
 
