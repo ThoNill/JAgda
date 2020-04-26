@@ -571,6 +571,4 @@ open Semigroup +-Semigroup
 
 a = assoc ( semigrp +-Monoid )
 
-it : ∀ {a} {A : Set a}  → A
-it  = x
 

@@ -1,0 +1,8 @@
+Agda ist eine Programmiersprache mit Dependent Types,
+beispielsweise kann man Vektoren mit einer fixen Länge als 
+eigenständigen Typ definieren, oder endliche Mengen mit einer bestimmten Größe
+
+
+
+
+ 
